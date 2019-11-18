@@ -1,0 +1,24 @@
+.sidebar{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    background-color:rgb(196, 189, 189);
+    color:black;
+    height:100%;
+    .sidebaritem{
+        padding:0;
+        margin:0;
+        a{
+            padding:15px 20px;
+            width:100%;
+            height:100%;
+            display:inline-block;
+            text-decoration: none;
+            color:black;
+        }
+        .select{
+            background-color:#fff;
+            color:green;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+<!-- <ion-list>
+  <ion-item *ngFor="let item of SidebarDatas" lines="none" class="sidebaritem">
+    <a [routerLink]="['routePath', item.key]" routerLinkActive="">{{item.title}}</a>
+  </ion-item>
+</ion-list> -->
+<ul class="sidebar">
+  <li *ngFor="let item of SidebarDatas" class="sidebaritem">
+      <a [routerLink]="['/home/productlist', item.key]" routerLinkActive="select">{{item.title}}</a>
+  </li>
+</ul>
